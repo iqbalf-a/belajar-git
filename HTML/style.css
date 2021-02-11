@@ -17,3 +17,23 @@ a, button > small {
     border-left: 6px solid orange;
     height: auto;
 }
+.bg-main {
+    background-image: url("image/illustration.png");
+    background-size: 450px auto;
+    background-repeat: no-repeat;
+    background-position: 80% 90%;
+}
+
+@media only screen and (max-width: 480px) {
+    .bg-main {
+        background-image: url("image/illustration.png");
+        background-size: 250px auto;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+  }
+
+.banner-section {
+    height: 100%;
+    min-height: 500px;
+}
